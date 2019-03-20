@@ -6,7 +6,7 @@ class QuizQuestion extends Component {
     //let {answer_options, instruction_text} = this.props.quiz_question;
 
     return (
-      <article>
+      <main>
         <section>
           <p>{this.props.quiz_question.instruction_text}</p>
         </section>
@@ -15,7 +15,7 @@ class QuizQuestion extends Component {
             <li>{this.props.quiz_question.answer_options[0]}</li>
           </ul>
         </section>
-      </article>
+      </main>
     );
   }
 }
